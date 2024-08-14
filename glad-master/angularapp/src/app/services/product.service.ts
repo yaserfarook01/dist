@@ -7,7 +7,7 @@ import { Product } from '../models/product.model';
   providedIn: 'root'
 })
 export class ProductService {
-  private baseUrl = 'https://8080-dbbfffafefccdac315264993dfbcbabebcdone.premiumproject.examly.io/api/products';
+  private baseUrl = 'https://springboot-emp-vvvh35pqva-uc.a.run.app/api/products';
 
   constructor(private http: HttpClient) { }
 
